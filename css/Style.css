@@ -99,7 +99,7 @@ body {
 }
 
 .banner h2 {
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     text-transform: capitalize;
     margin-top: 20px;
 
@@ -170,7 +170,6 @@ body {
     display: block;
     font-size: 40px;
     text-transform: uppercase;
-    letter-spacing: 25px;
     font-weight: 600;
 }
 
@@ -336,11 +335,9 @@ body {
 
 .projects__heading {
     padding: 5rem 0;
-}
-
-.projects__heading h1 {
     font-size: 2.5rem;
 }
+
 
 
 .projects__image {
@@ -416,7 +413,7 @@ h6 {
 
 .footer {
     background: url("../img/footer-bg.png") no-repeat;
-    padding: 5rem 0;
+    padding: 5rem 0 1rem 0;
 }
 
 .footer__logo a {
@@ -444,7 +441,6 @@ h6 {
 @media screen and (max-width:768px) {
 
     .about__heading span {
-        letter-spacing: 10px;
         font-size: 30px;
     }
     .projects__heading span {
