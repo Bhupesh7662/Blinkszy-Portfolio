@@ -89,7 +89,7 @@ body {
 
 
 .banner {
-    padding-top: 2rem;
+    padding-top: .5rem;
 }
 
 .banner h1 {
@@ -99,10 +99,8 @@ body {
 }
 
 .banner h2 {
-    /* letter-spacing: 3px; */
     text-transform: capitalize;
     margin-top: 20px;
-
 }
 
 
