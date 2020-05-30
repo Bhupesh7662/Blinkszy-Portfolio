@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
     background: url("../img/body-bg.png") no-repeat;
 }
 .sticky-header {
@@ -140,6 +140,10 @@ body {
     background: #854fee !important;
 }
 
+.main-heading span{
+    font-size: 2rem;
+    font-weight: 600;
+}
 
 .btn {
     font-size: 1.25rem;
@@ -256,87 +260,11 @@ body {
     transform: translateY(-5px);
 }
 
-.main-heading span {
-    display: table-cell;
-    letter-spacing: 20px;
-    animation: upDownText 1.5s linear infinite;
-}
-
-@media screen and (max-width:522px) {
-    .main-heading span {
-        letter-spacing: 5px;
-        font-size: 80%;
-    }
-}
-
-@keyframes upDownText {
-    0% {
-        transform: translateY(0px);
-        text-shadow: 0 1px 5px #d8d8d8,
-            0 2px 5px #d8d8d8,
-            0 3px 5px #d8d8d8,
-            0 2px 5px rgba(0, 0, 0, .9);
-    }
-
-    50% {
-        transform: translateY(-30px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.main-heading span:nth-child(1) {
-    animation-delay: .1s
-}
-
-.main-heading span:nth-child(2) {
-    animation-delay: .2s
-}
-
-.main-heading span:nth-child(3) {
-    animation-delay: .3s
-}
-
-.main-heading span:nth-child(4) {
-    animation-delay: .4s
-}
-
-.main-heading span:nth-child(5) {
-    animation-delay: .5s
-}
-
-.main-heading span:nth-child(1) {
-    animation-delay: .1s
-}
-
-.main-heading span:nth-child(6) {
-    animation-delay: .6s
-}
-
-.main-heading span:nth-child(7) {
-    animation-delay: .7s
-}
-
-.main-heading span:nth-child(8) {
-    animation-delay: .8s
-}
-
-.main-heading span:nth-child(9) {
-    animation-delay: .80s
-}
-
-.main-heading span:nth-child(10) {
-    animation-delay: .98s
-}
 
 .projects__heading {
     padding: 5rem 0;
     font-size: 2.5rem;
 }
-
-
 
 .projects__image {
     width: 100%;
@@ -483,7 +411,7 @@ h6 {
     }
 
     .services__heading h1 {
-        font-size: 95%;
+        font-size: 1.5rem;
     }
 
     .banner h3:after {
