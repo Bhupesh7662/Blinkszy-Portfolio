@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
     background: url("../img/body-bg.png") no-repeat;
 }
+
 .sticky-header {
     position: fixed;
     padding: .1rem 0;
@@ -140,9 +141,8 @@ body {
     background: #854fee !important;
 }
 
-.main-heading span{
+.main-heading span {
     font-size: 2rem;
-    font-weight: 600;
 }
 
 .btn {
@@ -167,12 +167,17 @@ body {
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%) !important;
 }
 
+.main-heading span,
+.about__heading span,
+.services__heading h1,
+.projects__heading span{
+    font-weight: 600;
+}
 
 .about__heading span {
     display: block;
     font-size: 40px;
     text-transform: uppercase;
-    font-weight: 600;
 }
 
 .about img {
@@ -369,10 +374,11 @@ h6 {
     .about__heading span {
         font-size: 30px;
     }
+
     .projects__heading span {
         font-size: 2rem;
     }
-    
+
     .brand-image {
         padding: .5rem;
     }
@@ -389,8 +395,6 @@ h6 {
         width: 100%;
     }
 }
-
-
 
 
 @media screen and (max-width: 950px) {
