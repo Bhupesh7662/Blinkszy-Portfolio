@@ -170,7 +170,9 @@ body {
 .main-heading span,
 .about__heading span,
 .services__heading h1,
-.projects__heading span{
+.projects__heading span,
+.content-exp-desc span,
+.months {
     font-weight: 600;
 }
 
