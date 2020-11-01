@@ -1,13 +1,20 @@
 @import url(./fonts.css);
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
     background: url("../img/body-bg.png") no-repeat;
+    overflow-x: hidden;
+}
+
+nav {
+    font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
 }
 
 .sticky-header {
@@ -126,8 +133,6 @@ body {
 
 
 .banner img {
-    max-width: 100%;
-    height: auto;
     padding: 7rem 0;
 }
 
@@ -157,16 +162,21 @@ body {
     color: whitesmoke;
 }
 
+.btn-sub {
+    color: #000;
+    border: 1px solid #4458dc;
+}
+
 .btn:hover {
     color: #000;
 }
 
-
-.btn-primary {
+.btn-sub:hover {
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%) !important;
+    color: whitesmoke;
 }
 
-.btn-secondary:hover {
+.btn-primary {
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100%) !important;
 }
 
@@ -402,6 +412,17 @@ h6 {
     }
 }
 
+@media screen and (max-width:991px) {
+    .banner img {
+        padding: 2rem 0;
+    }
+
+    .banner h3 {
+        text-transform: uppercase;
+        padding-top: 15%;
+    }
+
+}
 
 @media screen and (max-width: 950px) {
     .partners__right-section:before {
