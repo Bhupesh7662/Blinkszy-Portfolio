@@ -164,7 +164,8 @@ nav {
 
 .btn-sub {
     color: #000;
-    border: 1px solid #4458dc;
+    /* border: 1px solid #4458dc; */
+    box-shadow: 2px 5px 20px rgba(68, 88, 220, .5);
 }
 
 .btn:hover {
